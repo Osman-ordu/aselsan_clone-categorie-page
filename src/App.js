@@ -1,6 +1,6 @@
 import Header from './components/header/header';
 import Main from './components/main/main';
-import ListingButton from './components/article/button-group/listingButton';
+import ListingButton from './components/button-group/listingButton';
 
 function App() {
   return (

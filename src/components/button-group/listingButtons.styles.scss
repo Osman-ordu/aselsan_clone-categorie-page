@@ -1,14 +1,14 @@
 .btn-group {
     position: absolute;
-    left: 200px;
+    left: 217px;
     top: 160px;
     .btn {
         padding: 13px;
-        border: 1px solid #0d2e43;
+        border: 1px solid #dadada;
         border-radius: 0;
-        color: #0d2e43;
+        color: #000;
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 600;
         transition: all 0.3s;
         margin: 7px;
         &:hover {
@@ -17,3 +17,11 @@
         }
     }
 }
+
+@media screen and (max-width: 760px) {
+    
+      .btn-group {
+          display: none;
+      }
+    
+    }

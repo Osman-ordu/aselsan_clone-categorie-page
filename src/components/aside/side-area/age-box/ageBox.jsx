@@ -21,19 +21,19 @@ const ageBox = () => {
                     <form action="">
                         <div className='checkbox-item'>
                             <input type="checkbox" name="" id="" />
-                           <label className='mx-1' for="vehicle1">3-4</label>
+                            <label className='mx-1'>3-4</label>
                         </div>
                         <div className='checkbox-item'>
                             <input type="checkbox" name="" id="" />
-                            <label className='mx-1' for="vehicle1 ">5-6</label>
+                            <label className='mx-1'>5-6</label>
                         </div>
                         <div className='checkbox-item'>
                             <input type="checkbox" name="" id="" />
-                            <label className='mx-1' for="vehicle1">7-8</label>
+                            <label className='mx-1'>7-8</label>
                         </div>
                         <div className='checkbox-item'>
                             <input type="checkbox" name="" id="" />
-                            <label className='mx-1' for="vehicle1">9-10</label>
+                            <label className='mx-1'>9-10</label>
                         </div>
 
                     </form>

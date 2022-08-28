@@ -23,5 +23,17 @@
     font-weight: 300;
     position: absolute;
     right: 0;
-    
+
+}
+
+@media screen and (max-width: 760px) {
+    .main {
+        .side-area {
+            display: none;
+        }
+
+        .card-area {
+            margin-top: 20px;
+        }
+    }
 }
