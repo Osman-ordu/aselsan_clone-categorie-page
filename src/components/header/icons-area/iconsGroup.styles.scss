@@ -6,14 +6,17 @@
     flex-wrap: wrap;
     background-color: #EBEBEB;
     vertical-align: top;
+    z-index: 1;
 
     ul {
         margin: 10px;
+
         li {
             display: inline-block;
             margin-left: 16px;
         }
     }
+
     .icon-social {
         float: left;
         clear: left;
@@ -21,8 +24,7 @@
         color: #8A8A8A;
 
         &:hover {
-            color: rgba(0, 0, 0, 0.795);
+            color: #0d2e43;
         }
     }
 }
-

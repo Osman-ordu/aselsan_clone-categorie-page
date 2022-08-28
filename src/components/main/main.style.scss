@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+
+    .side-area,
+    .card-area {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 150px;
+
+        .categories-group,
+        .age-box-group,
+        .price-range-container {
+            position: relative;
+            margin-left: 2.1rem;
+            width: 150px;
+        }
+    }
+}
+
+.toggler-symbol {
+    font-size: 22px;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+    
+}

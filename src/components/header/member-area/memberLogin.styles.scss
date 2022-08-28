@@ -4,9 +4,12 @@
     top: 0;
 
     .member-link-group {
+        margin-top: 0.6rem;
+
         .member-link-2 {
             margin-right: 10px;
         }
+
         li {
             display: inline-block;
             list-style-type: none;
@@ -14,20 +17,21 @@
             vertical-align: top;
 
             a {
-              text-decoration: none;
-              margin:5px;
-              color: #8A8A8A;
-              font-weight: 500;
-              &:hover {
-                color: rgba(0, 0, 0, 0.795);
-            }  
+                text-decoration: none;
+                margin: 5px;
+                color: #8A8A8A;
+                font-weight: 500;
+
+                &:hover {
+                    color: rgba(0, 0, 0, 0.795);
+                }
             }
         }
     }
 }
 
-@media only screen and (max-width: 760px){
-  .member-area-container{
-      display:none;
-  }
+@media only screen and (max-width: 760px) {
+    .member-area-container {
+        display: none;
+    }
 }

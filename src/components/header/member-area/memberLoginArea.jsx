@@ -6,7 +6,7 @@ const memberLoginArea = () => {
     <div className='member-area-container'>
       <ul className='member-link-group'>
         <li className='member-link-1' href="#">
-          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#"><i className="fa-solid fa-user"></i></a>
         <a href="#">Üye girişi</a>
            </li>
         <li className='member-link-2' href="#"><a href="#"> / Üye ol</a></li>

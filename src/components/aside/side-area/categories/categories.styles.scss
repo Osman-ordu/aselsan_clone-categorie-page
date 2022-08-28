@@ -1,0 +1,31 @@
+
+        .accordion-header {
+            display: block;
+            line-height: 50px;
+            font-size: 14px;
+            color: #000;
+            background-color: #fff;
+            font-weight: 800;
+            padding: 0;
+            border:none;
+            
+        }
+    
+
+    .panel-categories {
+        .categories-link-item {
+            display: block;
+            line-height: 30px;
+            font-size: 13px;
+            color: #000;
+            font-weight: 500;
+            padding: 0;
+            text-decoration: none;
+            background: .1s ease-in-out;
+            
+        }
+      
+        .categories-link-item:hover {
+            text-decoration: underline;
+        }
+    }

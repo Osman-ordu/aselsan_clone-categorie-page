@@ -1,0 +1,15 @@
+.panel-checkbox {
+    form {
+        .checkbox-item {
+            label {
+                font-size: 12px;
+                color: #000;
+                display: inline-block;
+                line-height: 12px;
+                font-weight: 400;
+                width: calc(100% - 22px);
+                white-space: normal;
+            }
+        }
+    }
+}

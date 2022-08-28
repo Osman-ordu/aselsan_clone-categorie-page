@@ -1,0 +1,19 @@
+.btn-group {
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    .btn {
+        padding: 13px;
+        border: 1px solid #0d2e43;
+        border-radius: 0;
+        color: #0d2e43;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.3s;
+        margin: 7px;
+        &:hover {
+            background-color: #0d2e43;
+            color: #fff;
+        }
+    }
+}
