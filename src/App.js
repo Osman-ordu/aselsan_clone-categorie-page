@@ -4,7 +4,7 @@ import ListingButton from './components/button-group/listingButton';
 import { useState } from 'react';
 
 function App() {
-  const [filter,setFilter] = useState({})
+  const [filter, setFilter] = useState({})
   return (
     <>
       <Header />
