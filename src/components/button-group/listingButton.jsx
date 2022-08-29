@@ -3,6 +3,8 @@ import { itemData } from '../../mock/itemData';
 
 const listingButton = ({ setFilter }) => {
 
+    const filterLetter = itemData.sort((a, b) => a.item.content.localeCompare(b.item.content))
+
     const filterRisingPrice = () => {
         const filterPrice = itemData.sort((a, b) => parseFloat(a.item.price) - parseFloat(b.item.price), Number);
         setFilter(filterPrice)
@@ -13,15 +15,13 @@ const listingButton = ({ setFilter }) => {
         setFilter(filterPrice)
         setFilter([])
     }
-    const filterLetter = () => {
-        return itemData.sort((a, b) => a.item.content.localeCompare(b.item.content))
-    }
+
     const filterAlphabetically = () => {
-        setFilter(filterLetter())
+        setFilter(filterLetter)
         setFilter([])
     }
     const filterReverseAlpabetically = () => {
-        setFilter(filterLetter().reverse())
+        setFilter(filterLetter.reverse())
         setFilter([])
     }
 
