@@ -4,11 +4,13 @@ import Card from './card'
 import './cardGroup.styles.scss'
 
 
-const cardContainer = () => {
+const cardContainer = ({filter}) => {
+
     
     return (
         <div className='card-container d-flex flex-wrap text-center' >
-            {itemData
+            
+            {filter && itemData
             .map((card,index) => (
                 <Card
                 key={index}

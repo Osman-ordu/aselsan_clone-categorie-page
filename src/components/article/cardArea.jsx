@@ -1,10 +1,10 @@
 import React from 'react'
 import CardContainer from './card-group/cardContainer'
 
-const cardArea = () => {
+const cardArea = ({filter}) => {
   return (
     <div className='card-area'>
-    <CardContainer/>
+    <CardContainer filter={filter} />
     </div>
   )
 }
