@@ -3,6 +3,7 @@ import { itemData } from '../../mock/itemData';
 
 const listingButton = ({ setFilter }) => {
     
+ 
     const filterRisingPrice = () => {
         const filterPrice = itemData.sort((a, b) => parseFloat(a.item.price) - parseFloat(b.item.price), Number);
         setFilter(filterPrice)
@@ -16,7 +17,7 @@ const listingButton = ({ setFilter }) => {
     const filterLetter = () => {
         return itemData.sort((a, b) => a.item.content.localeCompare(b.item.content))
     }
-
+    
     const filterAlphabetically = () => {
         setFilter(filterLetter())
         setFilter([])
@@ -25,7 +26,6 @@ const listingButton = ({ setFilter }) => {
         setFilter(filterLetter().reverse())
         setFilter([])
     }
-
 
 
 
@@ -51,7 +51,6 @@ const listingButton = ({ setFilter }) => {
                     Ürün Adına Göre (Z-A)
                 </span>
             </button>
-
             <button className='btn'>
                 <span>
                     Stoktakiler

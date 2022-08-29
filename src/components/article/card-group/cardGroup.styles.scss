@@ -26,14 +26,20 @@
     }
 }
 
+.like-button {
+    color: #0d2e43;
+ 
+}
+
 @media screen and (max-width: 760px) {
     .card-container {
         margin: 0;
-        
-      
+
+
     }
+
     .card-item {
-            
+
         width: 47%;
         height: 35%;
         margin: 5px;

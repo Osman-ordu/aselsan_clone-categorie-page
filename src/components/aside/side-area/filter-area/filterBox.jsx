@@ -23,11 +23,11 @@ const filterBox = () => {
                         <form action="">
                             <div className='checkbox-item'>
                                 <input type="checkbox" name="" id="" />
-                                <label >İndirimli ürünler</label>
+                                <label className='mx-1' >İndirimli ürünler</label>
                             </div>
                             <div className='checkbox-item'>
                                 <input type="checkbox" name="" id="" />
-                                <label >Yeni Ürünler</label>
+                                <label className='mx-1'>Yeni Ürünler</label>
                             </div>
 
 

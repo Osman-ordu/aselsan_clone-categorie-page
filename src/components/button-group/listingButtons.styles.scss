@@ -2,7 +2,7 @@
     position: absolute;
     left: 217px;
     top: 160px;
-    .btn {
+    button {
         padding: 13px;
         border: 1px solid #dadada;
         border-radius: 0;
@@ -15,7 +15,12 @@
             background-color: #0d2e43;
             color: #fff;
         }
+        
     }
+    button:focus {
+        outline: none;
+        box-shadow: none;
+      }
 }
 
 @media screen and (max-width: 760px) {
