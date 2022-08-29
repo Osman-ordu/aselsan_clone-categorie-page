@@ -2,7 +2,7 @@ import './listingButtons.styles.scss'
 import { itemData } from '../../mock/itemData';
 
 const listingButton = ({ setFilter }) => {
-
+    
     const filterRisingPrice = () => {
         const filterPrice = itemData.sort((a, b) => parseFloat(a.item.price) - parseFloat(b.item.price), Number);
         setFilter(filterPrice)
@@ -52,7 +52,7 @@ const listingButton = ({ setFilter }) => {
                 </span>
             </button>
 
-            <button onClick={setFilter([])} className='btn'>
+            <button className='btn'>
                 <span>
                     Stoktakiler
                 </span>
