@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aselsan_clone-categorie-page/static/css/main.309d9346.css",
+    "main.js": "/aselsan_clone-categorie-page/static/js/main.6ed4b4db.js",
+    "static/media/aselsan1975-logo.webp": "/aselsan_clone-categorie-page/static/media/aselsan1975-logo.7adf6360124599177fa1.webp",
+    "index.html": "/aselsan_clone-categorie-page/index.html",
+    "main.309d9346.css.map": "/aselsan_clone-categorie-page/static/css/main.309d9346.css.map",
+    "main.6ed4b4db.js.map": "/aselsan_clone-categorie-page/static/js/main.6ed4b4db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.309d9346.css",
+    "static/js/main.6ed4b4db.js"
+  ]
+}
