@@ -1,4 +1,7 @@
 # <img width="947" alt="Ekran görüntüsü 2022-08-31 235247" src="https://user-images.githubusercontent.com/92692879/187780146-5b320cc6-0465-4087-9f30-ef5e42bb5760.png">
+<img width="949" alt="Ekran görüntüsü 2022-08-31 235547" src="https://user-images.githubusercontent.com/92692879/187782721-d4a385a9-b6f3-404e-a93a-7019599c4dd2.png">
+
+
 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
