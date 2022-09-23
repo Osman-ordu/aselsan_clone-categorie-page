@@ -19,10 +19,12 @@ const listingButton = ({ setFilter }) => {
     }
     
     const filterAlphabetically = () => {
+        //callback
         setFilter(filterLetter())
         setFilter([])
     }
     const filterReverseAlpabetically = () => {
+        //callback
         setFilter(filterLetter().reverse())
         setFilter([])
     }
